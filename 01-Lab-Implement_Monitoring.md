@@ -42,7 +42,11 @@ In this task, you will deploy a virtual machine that will be used to test monito
 
     >**Note**: If this is the first time you are starting **Cloud Shell** and you are presented with the **You have no storage mounted** message, select the subscription you are using in this lab, and click **Create storage**.
 
-1. In the toolbar of the Cloud Shell pane, click the **Upload/Download files** icon, in the drop-down menu, click **Upload** and upload the files **\\Allfiles\\Labs\\11\\az104-11-vm-template.json** and **\\Allfiles\\Labs\\11\\az104-11-vm-parameters.json** into the Cloud Shell home directory.
+1. Dowload these two files from the **Labfiles** folder to your local drive. 
+
+1. Open the **az104-11-vm-parameters.json** replace *yourname* to actual value.
+
+1. In the toolbar of the Cloud Shell pane, click the **Upload/Download files** icon, in the drop-down menu, click **Upload** and upload the files **az104-11-vm-template.json** and **az104-11-vm-parameters.json** into the Cloud Shell home directory.
 
 1. From the Cloud Shell pane, run the following to create the resource group that will be hosting the virtual machines (replace the `[Azure_region]` placeholder with the name of an Azure region where you intend to deploy Azure virtual machines):
 
@@ -51,10 +55,14 @@ In this task, you will deploy a virtual machine that will be used to test monito
    ```powershell
    $location = 'eastus'
 
-   $rgName = 'yourname-11-rg0'
+   $rgName = '{yourname}-11-rg0'
 
    New-AzResourceGroup -Name $rgName -Location $location
    ```
+
+   > **Note**: Replace `yourname` to some value. Make sure this is your identity of this lab. Use your firstname with some digit to avoid the confusion.
+
+   > **Note**: Going forward this is your identification. In this lab wherever you find the term **yourname**, please consider the value you have selected. 
 
 1. From the Cloud Shell pane, run the following to create the first virtual network and deploy a virtual machine into it by using the template and parameter files you uploaded:
 
