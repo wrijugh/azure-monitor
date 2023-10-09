@@ -10,7 +10,7 @@
 ## Check the Azure Access
 > Note: **Use private mode of browsing**
 - To the personal email shared, an Azure access will be invited. You need to accept it from your mailbox. Check in the junk folder if it is not in inbox. 
-- Once you follow the process, you will be able to login to Azure portal https://portal.azure.com 
+- Once you follow the process, you will be able to login to Azure portal https://portal.azure.com/@wrijuhotmail.onmicrosoft.com 
 - After you are able to login to the Azure portal, try creating a resource like Resource Group. 
 - For running script use the Cloud Shell. Open Cloud Shell using https://shell.azure.com 
 
