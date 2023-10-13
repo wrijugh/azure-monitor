@@ -5,17 +5,19 @@
 - Stable internet connection.
 - Basic knowledge of Azure portal.
 - Personal Microsoft Id (Outlook.com, Hotmail.com, Live.com preferred). To create new please use https://outlook.com. This will be used for giving access to Azure portal.
-- Personal Github Id, this will be used for sharing the scripts and lab instruction. **We will use a private repo which is not available in public.** To create a new Github id, please use https://github.com/signup 
+- Personal Github Id, this will be used for sharing the scripts and lab instruction. 
+- If you can't use Visua Studio Code in your laptop, please use personal Github. Fork the code to your own Github then open the repository in browser, type "." [dot or fulstop], this will open VS Code in browser. This is required for editing the ARM. 
+- To create a new Github id, please use https://github.com/signup 
 
 ## Check the Azure Access
-> Note: **Use private mode of browsing**
+> **Note**: Use private mode of browsing
 - To the personal email shared, an Azure access will be invited. You need to accept it from your mailbox. Check in the junk folder if it is not in inbox. 
 - Once you follow the process, you will be able to login to Azure portal https://portal.azure.com/@wrijuhotmail.onmicrosoft.com 
-- After you are able to login to the Azure portal, try creating a resource like Resource Group. 
+- After you are able to login to the Azure portal, try creating a resource like Resource Group.
 - For running script use the Cloud Shell. Open Cloud Shell using https://shell.azure.com 
 
 
-> Once you open the cloud shell, make sure your are using the right subscription. 
+> **Note**: Once you open the cloud shell, make sure your are using the right subscription. 
 
 To check the current subscription use the below command
 
