@@ -5,8 +5,8 @@
 - Stable internet connection.
 - Basic knowledge of Azure portal.
 - Personal Microsoft Id (Outlook.com, Hotmail.com, Live.com preferred). To create new please use https://outlook.com. This will be used for giving access to Azure portal.
-- Personal Github Id, this will be used for sharing the scripts and lab instruction. 
-- If you can't use Visua Studio Code in your laptop, please use personal Github. Fork the code to your own Github then open the repository in browser, type "." [dot or fullstop], this will open VS Code in browser. This is required for editing the ARM. 
+- Personal GitHub Id, this will be used for sharing the scripts and lab instruction. 
+- If you can't use **Visual Studio Code** in your laptop, please use personal GitHub. Fork the code to your own GitHub then open the repository in browser, type "." [dot or fullstop], this will open VS Code in browser. This is required for editing the ARM. 
 - To create a new Github id, please use https://github.com/signup 
 
 ## Check the Azure Access
