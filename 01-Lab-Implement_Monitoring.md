@@ -73,8 +73,7 @@ In this task, you will deploy a virtual machine that will be used to test monito
    New-AzResourceGroupDeployment `
       -ResourceGroupName $rgName `
       -TemplateFile az104-11-vm-template.json `
-      -TemplateParameterFile az104-11-vm-parameters.json `
-      -AsJob
+      -TemplateParameterFile az104-11-vm-parameters.json 
    ```
 
     >**Note**: Do not wait for the deployment to complete but instead proceed to the next task. The deployment should take about 3 minutes.
